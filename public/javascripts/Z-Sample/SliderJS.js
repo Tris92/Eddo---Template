@@ -100,3 +100,9 @@ jQuery("#lightSlider").lightSlider(); **/
 
 // Si plus de sources CSS ou JS sur les lien voici des fichiers avec les codes :
 // https://drive.google.com/drive/folders/1OnmAFQ7hIwQEUJ8qWwRUjHjk-SnAz91K
+
+
+
+
+var pop = jQuery('#icon-service-technical-drawings').clone();
+jQuery('.jumbotron-image').before('<div>'+ pop +'</div>');

@@ -1,1 +1,8 @@
-caca 
+if (!window.abt559181) {
+  window.abt559181 = true;
+
+
+jQuery('.section.section-wide.section-sep:has(.meta .label.label-primary)').after('<div class="container-753l"> <div class="flex-container-753l"> <span class="span-white-753l">Découvrez :</span> <a class="button-flex-container-753l" href="https://www.fr.weber/search-content/content_type/article"><img class="img-flex-container-753" src="https://www.eddo.fr/wp-content/uploads/2019/12/Weber-dispo.png" alt=""><span class="span-yellow-flex-753">Tous nos articles</span> </a> <a class="button-flex-container-753l" href="https://www.fr.weber/search-content/content_type/problem_solution"> <img class="img-flex-container-753" src="https://www.eddo.fr/wp-content/uploads/2019/12/Weber-dispo.png" alt=""> <span class="span-yellow-flex-753">Nos fiches Pas à Pas</span> </a> <a class="button-flex-container-753l" href="https://www.fr.weber/search-content/bundle/video"> <img class="img-flex-container-753" src="https://www.eddo.fr/wp-content/uploads/2020/01/picto_btn_video.png" alt=""> <span class="span-yellow-flex-753">Nos vidéos</span> </a> </div></div></div>');
+jQuery('.section.section-wide.section-sep:has(.meta .label.label-primary)').before('<div class="container-753"> <div class="flex-container-753"> <div class="text-flex-container-753"><span class="span-black-753">Retrouver tous nos produits prêt de chez vous dans plus de</span></br><span class="span-yellow-753">2000 points de ventes</span> </div><a class="button-flex-container-753" href="https://distributeurs.fr.weber/fr"> <img class="img-flex-container-753" src="https://www.eddo.fr/wp-content/uploads/2019/12/distributeurs.png" alt=""> <span class="span-yellow-flex-753">Trouver un distributeur</span> </a> </div></div></div>');
+
+}

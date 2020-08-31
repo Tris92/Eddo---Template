@@ -6,3 +6,563 @@ body {
 a {
   color: #00B7FF;
 }
+
+
+/**Masquer des éléments**/
+.facet--component.js-sticky.js-display-choice.js-sticky-cloned.js-sticky-cloned-sticked, .facet-group.priceValue.js-facet--component, .quantity.facet-group.brandName.js-facet--component, .sort, .facet--view, span.product_brand, .test_header {
+    display: none !important;
+}
+/** enlever le survol sur les images**/
+@media screen and (min-width: 1025px){
+.product-list--mainLink:focus .product-list--thumb--simple-product img, .product-list--mainLink:hover .product-list--thumb--simple-product img {
+    transform: none !important;
+    transition: none !important;
+    -webkit-transform: none !important;
+}}
+
+span.product_name.head.product-list--name.product-list--name--simple-product {
+    display: block !important;
+    font-family: ABChanelCorpo-SemiBold;
+    font-size: 12px;
+}
+
+span.head.product-list--name--simple-product.product_category {
+    display: none;
+}
+.product-colors-sizes.colors.hidden-xs.hidden-sm .colors span {
+    display: block !important;
+    padding-bottom: 35px;
+width: 100%;
+}
+.product-colors-sizes.colors.hidden-xs.hidden-sm{display: block !important;}
+.facet--component--list button[type="button"].btn::after {
+    top: 0 !important;
+}
+
+.dual-range .slider, .dual-range .slider.focus, .dual-range .slider.hover, .dual-range .track, .facet--item--group.frameShape li.facet-checked svg {
+    fill: black !important;
+}
+
+.facet--item--group.frameShape li.facet-checked .label {
+    color: black !important;
+}
+
+li.input-check.facet-checked input {
+    background:
+    black !important;
+}
+
+
+span.test_cart_button {
+    font-size: 14px;
+    font-family: Helvetica;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+@font-face {
+font-family: "ab_chanel_corpo";
+src: url("https://opticien.grandoptical.com/css/font/ABChanelCorpo-Regular.otf");
+}
+@media screen and (min-width: 1025px) {
+
+.facet--btn .btn{padding: 1rem 1rem !important;}
+
+.facet--component {
+max-width: 98rem;
+}
+  .bloc {
+    display:block;
+    clear:both;
+  }
+.test_header {
+    width: 100%
+}
+
+.test_headbar {
+    width: 100%;
+    text-align: center;
+    border-top: 8px solid #1d1d1d
+}
+
+.test_headbar_img {
+    max-width: 174px;
+    margin: 33px auto 42px auto
+}
+
+.test_chanel_img {
+    width: 100%
+}
+}
+
+@media only screen and (max-width:640px) {
+    .test_headbar {
+        border-top: 6px solid #1d1d1d
+    }
+
+    .test_headbar_img {
+        max-width: 75px;
+        margin: 12px auto
+    }
+
+
+.content-head--title,
+.facet--view,
+.product-list--tile--position-1 {
+    display: none
+}
+
+.product-list--wrapper {
+    background-color: none
+}
+
+.product-list--mainLink:focus,
+.product-list--mainLink:hover {
+    box-shadow: none
+}
+
+.product-list--mainLink:hover .product-list--thumb--simple-product img {
+    transform: scale(1)
+}
+
+.product-list .head.product_category,
+.product-list--brand--simple-product,
+.product-list--price-start.product_mention {
+    display: none !important
+}
+
+.product-list .head {
+    /*font-family: poppins-semi-bold;*/
+    margin-bottom: .2rem
+}
+
+.product-list--price {
+    font-size: 10px
+}
+
+.test_cart_button {
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.product-list--wrapper {
+    background: none;
+}
+
+.facet {
+    border-bottom: 1px solid #d3d3d33d;
+}
+
+.product_name span {
+    font-family: ABChanelCorpo-SemiBold !important;
+}
+
+
+
+.product-list--info-stock {
+    border-top: 0px;
+}
+
+.stock_message {
+    display: none;
+}
+
+.product_name span,
+.product-list--price,
+.test_cart_button, .js-facet-reminder, .btn {
+    font-family: ABChanelCorpo-SemiBold;
+}
+
+#main-content .products-list-content .facet .facet--component {
+    border-top: 1px solid #B2B2B2;
+    border-bottom: 1px solid #B2B2B2;
+
+}
+
+.variant-color span{
+    margin-right: 12px;
+}
+
+.product-list--picto--wrapper {
+    display: none;
+}
+
+.product-list--item--wrapper--simple-product {
+    margin: 0px 20px;
+}
+
+.product_thumb .thumb .product-list--thumb .product-list--thumb--simple-product {
+    max-width: 385px;
+    margin-bottom: 30px;
+}
+
+.product_name, .simple-price, .test_cart_button {
+    font-family: "ABChanelCorpo-SemiBold";
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.product-list--variant-color .product-list--variant-color--simple-product {
+    font-family: "Helvetica Light", Helvetica;
+    font-size: 14px;
+    font-style: light;
+}
+
+.new-price{
+    color: #1D1D1D;
+}
+
+.reinsurance--title:after {
+    background-color: #1D1D1D ;
+}
+
+.product-list--price-container {
+    margin-bottom: 10px;
+}
+
+}
+
+@media screen and (max-width: 1024px) {
+.facet--btn .btn{font-family: ABChanelCorpo-Regular;}
+#facetNavRefinements .quantity.facet-group.frameWebColour .facet--item--group DIV UL li input, input[type=checkbox]{border-radius: initial;}
+.facet--component--list button[type=button].btn .label{max-width:239px;}
+@font-face {
+font-family: "ab_chanel_corpo" !important;
+src: url("https://opticien.grandoptical.com/css/font/ABChanelCorpo-Regular.otf");
+}
+.facet--component--list.height-preheader{margin-top: 0rem !important}
+[type=reset], [type=submit], button, html [type=button]{-webkit-appearance: initial !important; appearance: initial !important; border-radius : initial;}
+.product-list--wrapper {
+    background-color: #FFF !important;
+}
+
+.product-list--item--wrapper--simple-product {
+    margin: 10.5px 10px;
+}
+
+.product_thumb .thumb .product-list--thumb .product-list--thumb--simple-product {
+    max-width: 172;
+}
+
+.product_name, .simple-price, .test_cart_button {
+    font-family: "ABChanelCorpo-SemiBold";
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.product_thumb .thumb .product-list--thumb .product-list--thumb--simple-product H2 SPAN SPAN {
+    font-family: "Helvetica Light", Helvetica !important;
+    font-size: 14px;
+    font-style: light;
+}
+
+.js-facet-customscroll {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.page--title DIV:before, .page--title DIV:after {
+    background-color: #222 !important;
+}
+
+.content-head--link .content-head--more .js-content-head-toggle {
+    color: #CCC;
+}
+
+
+.facet-group .btn {
+    border-style: none!important;
+}
+
+.facet--component--list{
+left:0;
+z-index: 99999 !important;
+top: 6em !important;
+}
+
+.facet--component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:"ABChanelCorpo-SemiBold", Helvetica, Arial, sans-serif !important;
+    font-weight: bold;
+}
+
+.facet--component .facet--component--resultat{
+    font-weight: bold !important;
+    margin: 0;
+}
+.facet--component .facet--component--resultat b{
+    font-weight: bold !important;
+}
+
+.sort {
+    display: flex;
+    align-items: center;
+}
+/**
+.facet--component--list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+**/
+
+.facet--item--group {
+    display: block;
+}
+
+.js-facet-customscroll ul{
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: unset !important;
+}
+
+input[name=frameWebColour] {
+    display: block;
+    width: 9px;
+    height: 9px;
+}
+
+.frameShape .js-facet-customscroll li label input {
+    display: none !important;
+}
+
+}
+
+/*couleurs de monture*/
+
+#facetNavRefinements .quantity.facet-group.frameWebColour .facet--item--group DIV UL {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#facetNavRefinements .quantity.facet-group.frameWebColour .facet--item--group DIV UL li input {
+    height: 9px;
+    width: 9px;
+    background: #fff;
+    border: 1px solid #000;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+}
+
+.pagination--wrapper li span {
+    background-color: #222 !important;
+}
+
+.headline:before, .headline:after{
+    background-color: #222 !important;
+}
+/**
+html, body {
+    font-family: "Helvetica Light" !important;
+}
+**/
+.product-list .product-colors-sizes {
+    margin-top: 0px;
+}
+
+.pagination li:not(.nav) a:hover {
+    background-color: Black;
+    color: white;
+}
+
+.page--title div div p a {
+    color: #222 !important;
+}
+
+.page--title>div:before {
+    background-color: #222;
+}
+
+
+.product-list--wrapper {
+    background-color: #fff;
+}
+
+/* css for filter menu */
+.height-preheader {
+    width: 80%;
+}
+
+#main-content .facet .facet--component .hidden-md.hidden-lg.facet--component--content {
+    width : 100%;
+}
+
+
+#main-content .facet--component .hidden-md DIV{
+    border: none;
+    text-align: left;
+    display: flex !important;
+    flex-direction: row !important;
+
+}
+
+.facet--component--content--filter {
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+
+.img-filter-go {
+    margin-left: 20px;
+}
+
+#main-content .facet--component .hidden-md {
+    display:flex;
+    flex-direction: row;
+}
+
+#frameGenre-Enfant, #frameGenre-Femme, #frameGenre-Homme {
+    margin-right: 10px;
+}
+
+#facetNavRefinements .quantity.facet-group.frameShape .facet--item--group DIV UL {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: "Helvetica Light", Helvetica;
+}
+
+#face-result-ab DIV B, #face-result-ab DIV span {
+    font-family: "Helvetica Light", Helvetica;
+    font-weight: 300;
+    margin-right: 5px;
+    font-size: 14px;
+    color: #AAA;
+}
+
+#face-result-ab {
+    display: flex;
+    justify-content: space-between;
+    align-items : center;
+}
+
+#facetNavRefinements .facet--component--list .facet--clear-filter A{
+    border: none;
+    font-family: Helvetica;
+    font-weight: lighter;
+    padding: 14.0581px;
+    color: #AAA;
+    text-decoration: underline;
+    font-size: 14px;
+    text-transform: none;
+}
+
+#facetNavRefinements .facet--component--list .facet--clear-filter A:hover{
+    background-color: #FFF;
+}
+
+#facetNavRefinements .facet--component--list .facet--component--content--filter .facet--component--list--filter span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+#facetNavRefinements .facet--component--list--filter SPAN {
+    align-self: center;
+}
+#facetNavRefinements .facet--component--list--filter SPAN A{
+    color: #AAA;
+    max-height: 14px;
+}
+
+#productList .product-list DIV.flex.itemGrid-1third.product-list--item--type--optique A {
+    box-shadow: none;
+    transition: 0;
+}
+
+#main-content .content-head {
+    display: none;
+}
+
+#productList DIV.flex.itemGrid-1third.product-list--item--type--optique .product-list--item--product-description H2 .product_name {
+    display: none;
+}
+
+#productList DIV.flex.itemGrid-1third.product-list--item--type--optique H2 .head.product-list--brand SPAN {
+    font-family: ABChanelCorpo-SemiBold;
+    font-size: 16px;
+}
+
+#productList DIV.flex.itemGrid-1third.product-list--item--type--optique .product-list--item--wrapper--simple-product .product-list--details .product-colors-sizes {
+    height: 20px;
+    margin: auto;
+}
+
+#productList DIV.flex.itemGrid-1third.product-list--item--type--optique .product-list--price-product .product-list--price-container .simple-price {
+    font-family: ABChanelCorpo-SemiBold;
+    font-size: 14px;
+}
+
+#productList DIV.flex.itemGrid-1third.product-list--item--type--optique A .product-list--item--wrapper--simple-product .test_cart_button {
+    font-family: Helvetica;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+#productList DIV.flex.itemGrid-1third.product-list--item--type--optique .product-list--item--wrapper--simple-product .product-list--item--product-description .product-list--picto--wrapper {
+    display: none;
+}
+
+.dual-range .inputs input[type=range] {
+    color: #222;
+    background-color: #222;
+}
+
+#facetNavRefinements .quantity.facet-group.frameShape .facet--item--group DIV UL {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.variant-color {
+    display: none;
+}
+
+.facet .accessoryColour input[type=checkbox], .facet .accessoryColour.disabled, .facet .contactLensColour input[type=checkbox], .facet .contactLensColour.disabled, .facet .frameLensColour input[type=checkbox], .facet .frameLensColour.disabled, .facet .frameShape input[type=checkbox], .facet .frameShape.disabled, .facet .frameWebColour input[type=checkbox], .facet .frameWebColour.disabled {
+    display: block;
+}
+
+
+[type="checkbox"] {
+    height: 9px;
+    width: 9px;
+    background: #fff;
+    border: 1px solid #000;
+}
+
+[type="checkbox"]:checked {
+    background: #000;
+}
+
+.footer--scrolltop {
+    top: auto;
+    bottom: 5%;
+}
+
+.product-list--price-product {
+    font-family: ABChanelCorpo-SemiBold;
+}
+
+.new-price.product-list--price--new--simple-product--new .product-list--price--new .product-list--price--new--simple-product {
+    color: #222 !important;
+}
+.category_chanel a{text-decoration: none;}
+.facet--item--group [type=radio], .facet--item--group [type=checkbox]{border-radius: initial !important;}
+.facet--item--group .btn{font-family: ABChanelCorpo-Regular !important;}
+.facet--component--list button[type=button].btn .quantity{margin-right:0.9rem}
+/**Fix prix**/
+.product-list--details>div:last-child {
+    display: initial !important;
+}
+.product-list--price.price .old-price, .product-list--price.price .new-price {
+    display: none !important;
+}
