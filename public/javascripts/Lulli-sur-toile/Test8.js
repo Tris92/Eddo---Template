@@ -30,12 +30,13 @@ jQuery(".nbcouleursab span:eq(1)").css("font-size", "0.7rem");
 
 jQuery(".nbcouleursab").click(function() {
   if(jQuery(".ttcouleursab:visible").length === 0){
-jQuery(".ttcouleursab").show();
-jQuery(".ttcouleursab").css("height", "auto");
-jQuery(".ttcouleursab").css("max-height", "250px");
-jQuery(".nbcouleursab span:eq(1)").html("<img src='https://www.eddo.fr/wp-content/uploads/2020/01/up-arrow.png' style='width: 7px;' />");
-jQuery(".nbcouleursab span:eq(1)").css("font-size", "0.7rem");
-jQuery(".ttcouleursab").css("margin-bottom", "1px solid black");}
+    jQuery(".ttcouleursab").show();
+    jQuery(".ttcouleursab").css("height", "auto");
+    jQuery(".ttcouleursab").css("max-height", "250px");
+    jQuery(".nbcouleursab span:eq(1)").html("<img src='https://www.eddo.fr/wp-content/uploads/2020/01/up-arrow.png' style='width: 7px;' />");
+    jQuery(".nbcouleursab span:eq(1)").css("font-size", "0.7rem");
+    jQuery(".ttcouleursab").css("margin-bottom", "1px solid black");
+}
     else{jQuery(".ttcouleursab").hide(); jQuery(".ttcouleursab").css("height", "auto"); jQuery(".ttcouleursab").css("margin-bottom", "0px"); jQuery(".nbcouleursab span:eq(1)").html("<img src='https://www.eddo.fr/wp-content/uploads/2020/01/down-arrow.png' style='width: 7px;'/>");}
 });
 

@@ -182,13 +182,6 @@ jQuery(".facet--item--group.frameShape span").css("text-transform", "capitalize"
 // *************************************** VARIATION 2  *********************************************************
 
 
-
-
-
-
-
-
-
 //Desktop
 if (window.matchMedia('(min-width: 1025px)').matches){
   //Remplace le nombre de produit affiché trois par trois
@@ -348,6 +341,5 @@ gvdevqa
 
 //Lien recette
 https://fr-gv-gop.qa.grandvision.global/lunettes-de-vue/femme/marque/chanel/c/13873?abchanelpagecate
-
 
 xx
