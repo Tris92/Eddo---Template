@@ -67,6 +67,8 @@ if (window.matchMedia('(max-width: 1023px)').matches){
     'cursor': 'pointer'
     })
   });
+
+  jQuery('.hotel-map UL LI SPAN:eq(1)').css({'display': 'inline-block'})
 }
 
 //CODE GLOBAL
