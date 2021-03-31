@@ -73,14 +73,13 @@ jQuery('.newLynxBanner DIV IMG').css({'margin-left': '10px'});
 
 
 <script>
-
-var waitForJQuery = setInterval(function (){
+var waitForJQuery = setInterval(function(){
 if (typeof $ != 'undefined') {
   if(jQuery(".newLynxBanner").length === 0){
 
-  //changement de place de la bannière partenariat
   jQuery('.l-columns--12-large').wrap('<div class="newLynx"></div>');
   var lynxBanner = jQuery('.newLynx').html();
+  //changement de place de la bannière partenariat
   jQuery('#new-section-comparateur').before('<div class="newLynxBanner">'+ lynxBanner +'</div>');
   jQuery('.newLynx').hide();
   jQuery('.newLynxBanner').css({'padding': '30px 0px', 'background-color': 'rgb(238, 238, 238, 0.8)'});
@@ -128,6 +127,7 @@ if (typeof $ != 'undefined') {
   }, 300)
   //ajout bouton souscrire en ligne
   jQuery('.m-hero-message__text').after('<div class="m-hero-message__button"><ul class="m-button-group"><li class="m-button-group__item"><a class="a-button a-button--primary" href="#">Souscrire en ligne </a></li></ul></div>');
+
   jQuery('.cmsvar_partenaire').text('pour votre véhicule :');
 
   //change le texte en en dessous du titre "devis auto"
